@@ -1,0 +1,29 @@
+{
+  "name": "analogbridge/analog-bridge-php",
+  "description": "Analog Bridge PHP Library",
+  "keywords": [
+    "analog",
+    "photo scanning api",
+    "video transfer api",
+    "film transfer api"
+  ],
+  "homepage": "https://analogbridge.io/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "AnalogBridge and contributors",
+      "homepage": "https://github.com/memorable/analog-bridge-php/contributors"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "5.*"
+
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": { "AnalogBridge\\" : "lib/" }
+  }
+}
