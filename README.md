@@ -10,7 +10,7 @@ Full documentation at the [Analog Bridge docs](https://analogbridge.io/docs#php)
 Install with composer:
 
 ```php
-composer require analogbridge/analog-bridge-php"
+composer require analogbridge/analog-bridge-php
 ```
 
 Or download the source:
